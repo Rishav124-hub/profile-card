@@ -23,7 +23,7 @@ class App extends Component{
             </div>
             <div className="content">
                 <span className="about">
-                    Hello Friends!.
+                    Hello!
                     My name is Rishav Jaiswal.
                     I am B.Tech CSE student of Sanskriti University
                     And also a Full Stack learner with upGrad. 
