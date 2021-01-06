@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body{
+    background: url("./img1.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-card{
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px #00000070;
+    position: absolute;
+    top: 8%;
+    left: 30%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-section{
+    padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 0%;
 }
-
-.App-link {
-  color: #61dafb;
+.img{
+    margin: 10%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+    margin: 10px;
+    font-size: 28px;
+}
+.bottom-section{
+    background-color: white;
+    padding: 10px;
+}
+.icon-part{
+    border-radius: 50%;
+    margin-top:-40px ;
+    width: 100%;
+}
+.about{
+    font-size: 20px ;
+    margin: 0%;
+    padding: 0%;
+}
+.content{
+    padding: 15px 15px;
+    margin: 10px;
+}
+.icon{
+   margin-left: 10px;
+   margin-right: 10px;
+   size: 12px;
+}
+.icon span{
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    padding: 15px;
 }
